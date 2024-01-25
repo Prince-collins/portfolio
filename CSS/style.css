@@ -1,0 +1,29 @@
+.odd{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 70px;
+}
+.san{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    padding: 50%;
+}
+p{
+    font-weight: 700;
+}
+h2{
+    font-weight: 900;
+    font-size: 30px;
+}
+img{
+    width: 800px;
+    height: 1000px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+    margin-right: 0;
+}
