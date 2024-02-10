@@ -1,4 +1,6 @@
 @import url(/CSS/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+
 :root{
     --default-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --primary-color: #2374EE;
@@ -26,7 +28,7 @@ aside {
 .Vicky img{
    width: 16rem;
    height: 16rem;
-   border: solid #272121 12px;
+   border: solid #272121 0.6rem;
    border-radius: 180px;
    margin-left: 4rem;
    margin-top: 30px;
@@ -243,4 +245,16 @@ aside {
 }
 .main p:hover{
     opacity: 0.8;
+}
+
+.main2 {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.6rem;
+    color: rgb(19, 18, 18);    
+}
+.main2:hover {
+    font-size: 2.9rem;
 }
