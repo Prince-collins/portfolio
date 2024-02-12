@@ -7,17 +7,13 @@
     --default-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --primary-color: #2374EE;
 }
+
 body{
-    background: url(/img/20240201_161037.jpg);
+    background: url(/img/IMG-20231124-WA0034.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* .BIM img{ */
-    /* zoom:43%; */
-    /* opacity:0.8 ; */
-/* } */
 
 aside {
     align-items: center;
