@@ -1,259 +1,144 @@
-* {
-    margin: 0;
-  }
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
-
-:root{
-    --default-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --primary-color: #2374EE;
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: solid;
+  color: #fff;
 }
+ body{
+  background: #000;
+ }
 
-body{
-    background: url(/img/IMG-20231124-WA0034.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+/****Header and navigation****/
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
 }
-
-aside {
-    align-items: center;
-    background-color: #000000;
-    margin-top: 0;
-    margin-right:50rem;
-    margin-bottom: 0;
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin-right:3rem;
 }
-
-.Vicky img{
-   width: 16rem;
-   height: 16rem;
-   border: solid #272121 0.6rem;
-   border-radius: 180px;
-   margin-left: 4rem;
-   margin-top: 30px;
+ul li{
+  list-style: none;
+  margin-left: 5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: background 0.5s;
 }
-
-/* Image effect */
-
-.Vicky img:hover{
-   border: none;
-   width: 17rem;
-   height: 18rem;
+nav{
+  border:rgb(210, 38, 8) solid ; 
+  border-radius: 0px 40px 40px 10rem;
+  background: rgb(210, 38, 8);
+  padding: 10px 0px 10px 0px;
+  margin-right: 30px;
 }
-.Vicky h1{
-    font-family: var(--default-font);
-    font-weight: 900;
-    font-size: 2.6rem;
-    color: #ffff;
-    margin-left: 5rem;
+.hero h1{
+  font-size: 2.9rem;
+  color: rgb(210, 38, 8);
+  margin-left: 1.2rem;
+  font-style: italic;
+  font-weight: 900;
 }
-
-.inform{
-    margin-left: 50px;
+.contact{
+  color: rgb(210, 38, 8);;
+  border: solid;
+  border-radius: 15px;
+  padding: 3px 20px 5px 20px;
+  background-color: #fff;
+  font-size: 1.3rem;
+  font-weight: 800;
+  transition: background 0.5s;
 }
+/******** End **********/
 
-.inform svg{
-    color: azure;
-    font-size: 2rem;
-    align-items: center;
-    margin-bottom: 8rem;
-    margin-top: 1rem;
+
+/****Section****/
+/*****Section Hero2******/
+.hero2{
+  display: flex;
+  justify-content: space-between;
 }
-
-.img1 {
-    margin-left: 1rem;
-    border: #272121 1px solid;
-    background-color: #2a1f1f;
-    padding: 0.8rem;
-    border-radius: 6rem;
-    /* width: 4rem; */
-    /* height: 3.9rem; */
+.img1{
+  margin-right: 5rem;
+  left: 40rem;
+  margin-bottom: 10rem;
 }
-
-.img2 {
-    margin-left: 0.8rem;
-    border: #272121 1px solid;
-    background-color: #2a1f1f;
-    padding: 0.8rem;
-    border-radius: 6rem;
-    /* width: 4rem; */
-    /* height: 3.9rem; */
+.img1 img{
+  width: 30.7rem;
+  height: 30.7rem;
 }
-
-.img3 {
-    margin-left: 0.8rem;
-    border: #272121 1px solid;
-    background-color: #2a1f1f;
-    padding: 0.8rem;
-    border-radius: 6rem;
-    /* width: 4rem; */
-    /* height: 3.9rem; */
+.text{
+  margin-top: 10rem;
+  margin-right: 6rem;
+  /* width: 500px; */
 }
-
-.img4 {
-    margin-left: 0.8rem;
-    border: #272121 1px solid;
-    background-color: #2a1f1f;
-    padding: 0.8rem;
-    border-radius: 6rem;
-    /* width: 4rem; */
-    /* height: 3.9rem; */
+.text h1{
+   font-size: 2.8rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   align-items: center;
 }
-
-.about_me {
-    margin-left: 1.9rem;
-    font-family: var(--default-font);
+.icon{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.9rem;
+  border-radius: 1.6rem;
 }
-
-.about_me a {
-    text-decoration: none;
-    color: aliceblue;
+.faceb{
+  padding: 2.8rem;
+  background: #272525;
+  transition: background 0.5s;
+  border-radius: 1.6rem;
 }
-
-.about_me svg {
-    color: antiquewhite;
-    font-size: 2rem;
+svg{
+  height: 1.9rem;
+  width: 120px;
 }
-
-.about_1 {
-    margin-left: 1rem;
-    margin-bottom: 1.2rem;
+.insta{
+  padding: 2.8rem;
+  background: #272525;
+  transition: background 0.5s;
+  border-radius: 1.6rem;
 }
-
-.about_2  {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    opacity: 0.3;
+.whats{
+  padding: 2.8rem;
+  background: #272525;
+  transition: background 0.5s;
+  border-radius: 1.6rem;
 }
+/**********END***********/
 
-.about_3 {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    opacity: 0.3;
+/*********Responsiveness************/
+nav ul li a:hover{
+  color: #a16d6d;
+  font-size: 1.1rem ;
+  font-weight: 700;
+  background:  rgb(210, 38, 8);
 }
-
-.about_4 {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    opacity: 0.3;
+.contact:hover{
+  color: rgb(217, 191, 187);;
+  border: solid;
+  border-radius: 15px;
+  padding: 3px 20px 5px 20px;
+  background-color: #c02020;
+  font-size: 1.3rem;
+  font-weight: 800;
 }
-
-.about_5 {
-    margin-left: 1rem;
-    margin-bottom: 1.2rem;
-    opacity: 0.3;
+.faceb:hover{
+  padding: 2.8rem;
+  background:#1c84ad;
+  transition: background 0.5s;
+  border-radius: 1.6rem;
 }
-
-.about_me span{
-    margin-left: 1rem;
-    margin-bottom: 40px;
-    /* margin: 23px; */
+.insta:hover{
+  padding: 2.8rem;
+  background:#c21210;
+  transition: background 0.5s;
+  border-radius: 1.6rem;
 }
-/* styling Portfolio */
-
-                   /* portfolio */
-
-.bbb{
-    font-family: var(--default-font);
-    font-size: 1.4rem;
-    color: #f1f9fbf6;
-    position: center;
-    margin-right: 6rem;
-}
-
-.bbb h2 {
-    font-size: 3rem;
-    margin-left: 13rem;
-    text-align: left;
-}
-
-.bbb p {
-    text-align: right;
-    margin-left: 5rem;
-
-}
-
-.odd svg{
-   font-size: 2.9rem;
-   color:white ;
-   margin-left: 2rem;
-}
-
-.odd button{
-   text-decoration: none;
-   background-color: var(--primary-color);
-   color: #ffff;
-   font-family: var(--default-font);
-   font-size: 1.5rem;
-   border-radius: 15px 0;
-   opacity: 0.4;
-}
-
-.tex{
-    margin-bottom: 0;
-    margin-top: 6rem;
-}
-
-.tex p {
-    font-family: var(--default-font);
-    color: azure;
-    margin-left: 10rem;
-    /* margin-top: 4rem */
-}
-
-        /* effect */
-.inform svg:hover {
-    font-size: 1.8rem;
-    color: var(--primary-color);
-}
-
-.about_me span:hover{
-    font-size: 2rem;
-    text-decoration: underline;
-}
-
-/* main section */
-
-.send{
-    position: absolute;   
-    top: 80%;
-    right: 2px; 
-    margin-left: 46rem;
-}
-
-.main {
-    font-family: var(--default-font);
-    color: rgb(242, 251, 243);
-    line-height: 2.5rem;
-}
-
-.main p{
-    font-size: 2.3rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    opacity: 0.4;
-}
-
-.main h1 {
-    font-size: 3.6rem;
-    opacity: 0.4;
-}
-   /* main effect */
-.main h1:hover{
-    text-decoration: underline;
-    opacity: 0.8;
-}
-.main p:hover{
-    opacity: 0.8;
-}
-
-.main2 {
-    position: absolute;
-    top: 5rem;
-    right: 5rem;
-    font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
-    color: rgb(19, 18, 18);    
-}
-.main2:hover {
-    font-size: 2.2rem;
-    color: var(--primary-color);
+.whats:hover{
+  padding: 2.8rem;
+  background:#28ba28;
+  transition: background 0.5s;
+  border-radius: 1.6rem;
 }
